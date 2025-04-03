@@ -36,27 +36,7 @@
 
 ---
 
-## 🔥 GitHub Stats  
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anshulkhichi&show_icons=true&theme=gruvbox&hide_border=true" width="400px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshulkhichi&theme=gruvbox&hide_border=true" width="400px"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anshulkhichi&theme=gruvbox&margin-w=10&margin-h=10&column=6" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshulkhichi&layout=compact&theme=gruvbox&hide_border=true" width="400px"/>
-</p>
-
----
-
-## 🚀 Projects  
-
-🚑 **[Hospital Management System (In Progress)]()**  
-📊 **[Other Exciting Stuff]()** - Stay Tuned!  
 
 ---
 
