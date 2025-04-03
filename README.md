@@ -1,61 +1,118 @@
-<h1 align="center">Hey there, I'm Anshul Khichi! 👋</h1>
+# 🏡 **Wanderlust - Airbnb**
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2300FF99&size=24&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Backend+Dev+%7C+Cloud+Learner;Building+Scalable+Apps;Always+Learning+%26+Growing!">
-</p>
+A full-stack **Airbnb clone** built with **MERN Stack** (MongoDB, Express.js, React.js, Node.js) that allows users to **search, book, and host properties** with a seamless UI. 
 
 ---
 
-## 👨‍💻 About Me  
-
-🚀 **Full-Stack / Backend Developer** | **MERN Stack Enthusiast**  
-🎓 **B.Tech (2nd Year IT)** @ **RTU Kota**  
-💻 **Intern @ ReadyBytes Software Labs**  
-🛠 **Solving Bugs Since 2023**  
-🏆 **2x Hackathon Participant**  
-🎯 **Goal:** Master Software Engineering & Build Scalable Solutions!  
-
-💡 **Fun Fact:** I talk to AI more than people... but hey, AI listens! 😆  
-
----
-
-## 🛠 Tech Stack  
-
-💻 **Languages & Frameworks:**  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)  
-
-🔧 **Tools & DevOps:**  
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)  
+## 🚀 **Features**  
+✅ **User Authentication** (JWT-based login & OAuth)  
+✅ **List & Manage Properties** (Host can add, edit, and delete listings)  
+✅ **Booking System** (Users can book properties with date selection)  
+✅ **Payment Integration** (Stripe for secure transactions)  
+✅ **Reviews & Ratings** (Leave feedback on properties)  
+✅ **Real-time Chat** (Chat with hosts & guests using Socket.io)  
+✅ **Google Maps API** (View locations on an interactive map)  
+✅ **Mobile-Friendly & Responsive UI**  
 
 ---
 
+## 🛠 **Tech Stack**  
 
+### **Frontend:**  
+- React.js (Next.js for SEO & SSR)  
+- Tailwind CSS / Material UI  
+- Redux Toolkit (State Management)  
+- React Query (Data Fetching)  
 
+### **Backend:**  
+- Node.js & Express.js  
+- MongoDB with Mongoose / PostgreSQL  
+- JWT Authentication & OAuth  
+- Cloudinary for Image Uploads  
+- WebSockets (for real-time chat)  
 
-
-## 📬 Connect with Me  
-
-📞 **Phone**: (+91) 7976921685  
-📧 **Email**: [khatikanshul8@gmail.com](mailto:khatikanshul8@gmail.com)  
-🐦 **Twitter**: [@ANSHULKHICHI1](https://twitter.com/ANSHULKHICHI1)  
-🔗 **LinkedIn**: [Anshul Khichi](https://www.linkedin.com/in/anshulkhichi)  
+### **Deployment:**  
+- **Frontend:** Vercel / Netlify  
+- **Backend:** Render / Heroku / AWS  
 
 ---
 
-## 🎯 My Journey  
+## ⚡ **Installation & Setup**  
 
-🔹 **Currently mastering:** Advanced System Design & Backend Optimization  
-🔹 **Favorite Dev Quote:** _"First, solve the problem. Then, write the code."_ – John Johnson  
-🔹 **Dream:** Build something that people love using every day!  
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/your-username/wanderlust-airbnb-clone.git
+cd wanderlust-airbnb-clone
+```
+
+### 2️⃣ Install dependencies  
+```bash
+# Backend
+cd server
+npm install
+
+# Frontend
+cd client
+npm install
+```
+
+### 3️⃣ Set up environment variables  
+Create a `.env` file in the **server folder**:  
+```ini
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLOUDINARY_URL=your_cloudinary_api_url
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+### 4️⃣ Start the development server  
+```bash
+# Backend
+cd server
+npm run dev
+
+# Frontend
+cd client
+npm start
+```
+
+### 5️⃣ Open in browser  
+```
+http://localhost:3000
+```
 
 ---
 
-<h3 align="center">🚀 Let’s connect, code, and create something amazing! 🚀</h3>
+## 📌 **Project Structure**  
+```
+/wanderlust-airbnb-clone
+  ├── /client  (React frontend)
+  ├── /server  (Node.js backend)
+  ├── /models  (MongoDB schemas)
+  ├── /routes  (API endpoints)
+  ├── /controllers  (Business logic)
+  ├── /utils  (Helper functions)
+  ├── /public  (Static assets)
+  ├── .env (Environment variables)
+  ├── README.md
+```
 
+---
+
+## 🎬 **Live Demo & GitHub Repo**  
+👉 [Live Demo](#) (Add your deployment link)  
+👉 [GitHub Repo](#) (Add your GitHub repo)  
+
+---
+
+## 🤝 **Contributing**  
+💡 Found a bug or have suggestions? Feel free to **fork**, **open an issue**, or **submit a pull request**!  
+
+---
+
+## 📩 **Contact**  
+📧 Email: khatikanshul8@gmail.com 
+
+---
